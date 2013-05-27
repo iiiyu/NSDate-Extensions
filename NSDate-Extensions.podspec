@@ -12,8 +12,7 @@ Pod::Spec.new do |s|
   s.license      = 'erica'
   s.author       = { "erica" => "erica@ericasadun.com" }
   s.source       = { :git => "https://github.com/erica/NSDate-Extensions.git" }
-  s.source_files = 'NSDate-Utilities/*.{h,m}'
-  s.preserve_paths  = 'NSDate-Extensions'
+  s.source_files = '*.{h,m}'
   s.requires_arc = true
   s.platform     = :ios
 end
