@@ -1,4 +1,4 @@
-..#
+#
 # Be sure to run `pod spec lint NSDate-Extensions.podspec' to ensure this is a
 # valid spec and remove all comments before submitting the spec.
 #
