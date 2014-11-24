@@ -1,4 +1,4 @@
-#
+..#
 # Be sure to run `pod spec lint NSDate-Extensions.podspec' to ensure this is a
 # valid spec and remove all comments before submitting the spec.
 #
@@ -14,5 +14,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/erica/NSDate-Extensions.git" }
   s.source_files = '*.{h,m}'
   s.requires_arc = true
-  s.platform     = :ios
+  s.ios.deployment_target = '6.0'
+  s.osx.deployment_target = '10.7'
 end
